@@ -1,0 +1,202 @@
+[
+    {
+        "id": 201,
+        "name": "Lv4: 攻撃力UP",
+        "buff": {
+            "type": "atk_up_flat",
+            "value": 750
+        }
+    },
+    {
+        "id": 202,
+        "name": "Lv4+: 攻撃力UP",
+        "buff": {
+            "type": "atk_up_flat",
+            "value": 810
+        }
+    },
+    {
+        "id": 203,
+        "name": "Lv5+: 攻撃力UP",
+        "buff": {
+            "type": "atk_up_flat",
+            "value": 850
+        }
+    },
+    {
+        "id": 204,
+        "name": "Lv4: クリティカルダメージUP",
+        "buff": {
+            "type": "crit_dmg_up",
+            "value": 15
+        }
+    },
+    {
+        "id": 205,
+        "name": "Lv4+: クリティカルダメージUP",
+        "buff": {
+            "type": "crit_dmg_up",
+            "value": 18
+        }
+    },
+    {
+        "id": 206,
+        "name": "Lv5+: クリティカルダメージUP",
+        "buff": {
+            "type": "crit_dmg_up",
+            "value": 20
+        }
+    },
+    {
+        "id": 207,
+        "name": "Lv4: クリティカル率アップ",
+        "buff": {
+            "type": "critical_up",
+            "value": 15
+        }
+    },
+    {
+        "id": 208,
+        "name": "Lv4+: クリティカル率アップ",
+        "buff": {
+            "type": "critical_up",
+            "value": 18
+        }
+    },
+    {
+        "id": 209,
+        "name": "Lv5+: クリティカル率アップ",
+        "buff": {
+            "type": "critical_up",
+            "value": 20
+        }
+    },
+    {
+        "id": 210,
+        "name": "Lv4: 全ステータスアップ",
+        "buff": {
+            "type": "status_up_flat",
+            "value": 250
+        }
+    },
+    {
+        "id": 211,
+        "name": "Lv4+: 全ステータスアップ",
+        "buff": {
+            "type": "status_up_flat",
+            "value": 270
+        }
+    },
+    {
+        "id": 212,
+        "name": "Lv5+: 全ステータスアップ",
+        "buff": {
+            "type": "status_up_flat",
+            "value": 300
+        }
+    },
+    {
+        "id": 213,
+        "name": "Lv4: Eブラス",
+        "buff": {
+            "type": "dmg_up",
+            "value": "hp_rate >= 0.8 ? 25 : 0"
+        }
+    },
+    {
+        "id": 214,
+        "name": "Lv4+: Eブラスト",
+        "buff": {
+            "type": "dmg_up",
+            "value": "hp_rate >= 0.8 ? 35 : 0"
+        }
+    },
+    {
+        "id": 215,
+        "name": "Lv5+: Eブラスト",
+        "buff": {
+            "type": "dmg_up",
+            "value": "hp_rate >= 0.8 ? 40 : 0"
+        }
+    },
+    {
+        "id": 216,
+        "name": "Lv4: 葬魂神の契約",
+        "buff": {
+            "type": "all_arts_dmg_up",
+            "value": 15
+        }
+    },
+    {
+        "id": 217,
+        "name": "Lv4+: 葬魂神の契約",
+        "buff": {
+            "type": "all_arts_dmg_up",
+            "value": 18
+        }
+    },
+    {
+        "id": 218,
+        "name": "Lv5+: 葬魂神の契約",
+        "buff": {
+            "type": "all_arts_dmg_up",
+            "value": 20
+        }
+    },
+    {
+        "id": 219,
+        "name": "Lv4: 氷呪",
+        "buff": [
+            {
+                "type": "phys_dmg_up",
+                "value": 15
+            },
+            {
+                "type": "def_up",
+                "value": -15
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "name": "Lv4+: 氷呪",
+        "buff": [
+            {
+                "type": "phys_dmg_up",
+                "value": 18
+            },
+            {
+                "type": "def_up",
+                "value": -18
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "name": "Lv5+: 氷呪",
+        "buff": [
+            {
+                "type": "phys_dmg_up",
+                "value": 20
+            },
+            {
+                "type": "def_up",
+                "value": -20
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "name": "Lv4: 氷呪",
+        "buff": [
+            {
+                "type": "phys_dmg_up",
+                "value": 15
+            },
+            {
+                "type": "def_up",
+                "value": -15
+            }
+        ]
+    }
+]

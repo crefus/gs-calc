@@ -1,0 +1,2243 @@
+[
+    {
+        "id": 1,
+        "name": "軍神フェン",
+        "element": "樹",
+        "race": "人族",
+        "baseAtk": 3289,
+        "baseDef": 3162,
+        "baseHp": 7843,
+        "actions": {
+            "skill": {
+                "multiplier": 2300,
+                "type": "物理",
+                "element": "樹",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 26000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 60000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "party"
+                    },
+                    {
+                        "type": "super_critical_up",
+                        "value": 20,
+                        "target": "self"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 160000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "self"
+                    },
+                    {
+                        "type": "super_critical_up",
+                        "value": 40,
+                        "target": "self"
+                    },
+                    {
+                        "type": "atk_up",
+                        "value": 100,
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-援護",
+            [
+                "4-援護",
+                "4-防御"
+            ]
+        ]
+    },
+    {
+        "id": 2,
+        "name": "神星リザ",
+        "element": "光",
+        "race": "神族",
+        "baseAtk": 3080,
+        "baseDef": 2990,
+        "baseHp": 8165,
+        "actions": {
+            "skill": {
+                "multiplier": 1800,
+                "type": "魔法",
+                "element": "光",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 23000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "mag_res_down",
+                        "value": 50,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 150,
+                        "target": "element",
+                        "target_element": "光"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 130000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "mag_dmg_up",
+                        "value": "300 * hp_rate",
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-魔法",
+            "5-援護",
+            [
+                "4-魔法",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 3,
+        "name": "ナーベラル",
+        "element": "光",
+        "race": "魔族",
+        "baseAtk": 3168,
+        "baseDef": 2875,
+        "baseHp": 8188,
+        "actions": {
+            "skill": {
+                "multiplier": 1800,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 30,
+                        "target": "race",
+                        "target_race": "魔族"
+                    }
+                ]
+            },
+            "arts": {
+                "multiplier": 13000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 40000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 30,
+                        "target": "party"
+                    },
+                    {
+                        "type": "all_arts_dmg_up",
+                        "value": 200,
+                        "target": "leader"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 140000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "mag_res_down",
+                        "value": "120",
+                        "target": "enemy"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-援護",
+            "5-援護",
+            [
+                "4-魔法",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 4,
+        "name": "サンラク",
+        "element": "炎",
+        "race": "人族",
+        "baseAtk": 4500,
+        "baseDef": 3024,
+        "baseHp": 6820,
+        "actions": {
+            "skill": {
+                "multiplier": 2500,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 27000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 50,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 75000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "crit_res_down",
+                        "value": 100,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 140000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "self"
+                    },
+                    {
+                        "type": "super_critical_up",
+                        "value": 50,
+                        "target": "self"
+                    },
+                    {
+                        "type": "atk_up",
+                        "value": 50,
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-援護",
+            [
+                "4-物理",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 5,
+        "name": "犬牟田宝火",
+        "element": "水",
+        "race": "人族",
+        "baseAtk": 2420,
+        "baseDef": 3450,
+        "baseHp": 8395,
+        "actions": {
+            "skill": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 20000,
+                "type": "魔法",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 100,
+                        "target": "race",
+                        "target_race": "人族"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 58000,
+                "type": "魔法",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "crit_res_down",
+                        "value": 100,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": [
+                    {
+                        "type": "crit_dmg_up",
+                        "value": 300,
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-援護",
+            "5-援護",
+            [
+                "4-魔法",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 6,
+        "name": "水着美優",
+        "element": "炎",
+        "race": "人族",
+        "baseAtk": 3968,
+        "baseDef": 3039,
+        "baseHp": 7150,
+        "actions": {
+            "skill": {
+                "multiplier": 2000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 28000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 60,
+                        "target": "enemy",
+                        "target_element": "炎"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 58000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "crit_res_down",
+                        "value": 100,
+                        "target": "enemy",
+                        "overlap": true
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 170000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "self"
+                    },
+                    {
+                        "type": "super_critical_up",
+                        "value": 50,
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-魔法",
+            [
+                "4-物理",
+                "4-防御"
+            ]
+        ]
+    },
+    {
+        "id": 7,
+        "name": "水着ルヴィ&凛",
+        "element": "樹",
+        "race": "人族",
+        "baseAtk": 3260,
+        "baseDef": 3244,
+        "baseHp": 7368,
+        "actions": {
+            "skill": {
+                "multiplier": 2000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 27000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 40,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 60000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "phys_dmg_up",
+                        "value": 220,
+                        "target": "party"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 155000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "dmg_taken_up",
+                        "value": 100,
+                        "target": "enemy"
+                    },
+                    {
+                        "type": "elem_res_down",
+                        "value": 100,
+                        "target": "enemy",
+                        "target_element": "樹"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-援護",
+            "5-物理",
+            [
+                "4-回復",
+                "4-物理"
+            ]
+        ]
+    },
+    {
+        "id": 8,
+        "name": "モモン",
+        "element": "闇",
+        "race": "魔族",
+        "baseAtk": 4060,
+        "baseDef": 3157,
+        "baseHp": 6935,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "hp_rate >= 0.8 ? 250 : 0",
+                "target": [
+                    "self",
+                    "right"
+                ]
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2300,
+                "type": "物理",
+                "element": "闇",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 25000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": [
+                            "self",
+                            "right"
+                        ]
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 65000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "phys_dmg_up",
+                        "value": 150,
+                        "target": "party"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 180000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": "50 * enemy_魔族_count",
+                        "target": "enemy",
+                        "target_element": "闇"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-防御",
+            [
+                "4-防御",
+                "4-援護"
+            ]
+        ]
+    },
+    {
+        "id": 9,
+        "name": "シャドウ",
+        "element": "闇",
+        "race": "人族",
+        "baseAtk": 3462,
+        "baseDef": 3345,
+        "baseHp": 7093,
+        "actions": {
+            "skill": {
+                "multiplier": 3000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 20,
+                        "target": "self"
+                    }
+                ]
+            },
+            "arts": {
+                "multiplier": 20000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 100,
+                        "target": "self"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 60000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 60,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 180000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "def_ignore",
+                        "value": 100,
+                        "target": "party"
+                    },
+                    {
+                        "type": "gmg_up",
+                        "value": 200,
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-魔法",
+            [
+                "4-物理",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 10,
+        "name": "ベータ",
+        "element": "水",
+        "race": "精霊族",
+        "baseAtk": 2860,
+        "baseDef": 3565,
+        "baseHp": 7820,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": 150,
+                "target": "left"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 1800,
+                "type": "魔法",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "dmg_taken_up",
+                        "value": 20,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "arts": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": []
+            },
+            "superArts": {
+                "multiplier": 150000,
+                "type": "魔法",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "mag_dmg_up",
+                        "value": "80 * party_水_count",
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-魔法",
+            "5-援護",
+            [
+                "4-魔法",
+                "4-援護"
+            ]
+        ]
+    },
+    {
+        "id": 11,
+        "name": "シャルティア",
+        "element": "光",
+        "race": "魔族",
+        "baseAtk": 3975,
+        "baseDef": 2700,
+        "baseHp": 7590,
+        "abilities": [
+            {
+                "type": "critical_up",
+                "value": 100,
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2600,
+                "type": "魔法",
+                "element": "光",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 26000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 40,
+                        "target": "enemy",
+                        "target_element": [
+                            "光",
+                            "闇"
+                        ]
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 110000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 200,
+                        "target": "self"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": []
+            }
+        },
+        "slots": [
+            "6-魔法",
+            "5-魔法",
+            [
+                "4-魔法",
+                "4-物理"
+            ]
+        ]
+    },
+    {
+        "id": 12,
+        "name": "美遊",
+        "element": "闇",
+        "race": "人族",
+        "baseAtk": 3987,
+        "baseDef": 2820,
+        "baseHp": 7425,
+        "abilities": [
+            {
+                "type": "all_arts_dmg_up",
+                "value": "hp_rate >= 0.8 ? 200 : 0",
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 4200,
+                "type": "魔法",
+                "element": "闇",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 25000,
+                "type": "魔法",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 40,
+                        "target": "enemy",
+                        "target_element": "闇"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 90000,
+                "type": "魔法",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 150,
+                        "target": "self"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 190000,
+                "type": "魔法",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "def_ignore",
+                        "value": 100,
+                        "target": "party"
+                    },
+                    {
+                        "type": "dmg_up",
+                        "value": 200,
+                        "target": "race",
+                        "target_race": "人族"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-魔法",
+            "5-物理",
+            [
+                "4-魔法",
+                "4-防御"
+            ]
+        ]
+    },
+    {
+        "id": 13,
+        "name": "聖騎士ロイ",
+        "element": "水",
+        "race": "人族",
+        "baseAtk": 3875,
+        "baseDef": 2835,
+        "baseHp": 7480,
+        "actions": {
+            "skill": {
+                "multiplier": 3000,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 23000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "crit_res_down",
+                        "value": 100,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 60000,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "superArts": {
+                "multiplier": 180000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "phys_dmg_up",
+                        "value": 150,
+                        "target": "party"
+                    }
+                ]
+            },
+            "phantomBullet": {
+                "multiplier": 250000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 120,
+                        "target": "enemy"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-防御",
+            [
+                "4-回復",
+                "4-援護"
+            ]
+        ]
+    },
+    {
+        "id": 14,
+        "name": "エチカ",
+        "element": "光",
+        "race": "精霊族",
+        "baseAtk": 3496,
+        "baseDef": 3498,
+        "baseHp": 7248,
+        "actions": {
+            "skill": {
+                "multiplier": 3000,
+                "type": "物理",
+                "element": "光",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 20000,
+                "type": "物理",
+                "element": "光",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "光",
+                "conditional": {
+                    "buttonId": "lord_of_feather",
+                    "multiplierRate": 2,
+                    "buffRate": 2
+                },
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 100,
+                        "target": "party"
+                    },
+                    {
+                        "type": "elem_dmg_up",
+                        "value": 100,
+                        "target": "party",
+                        "target_element": "光"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 170000,
+                "type": "物理",
+                "element": "光",
+                "buffs": []
+            }
+        },
+        "button": {
+            "id": "lord_of_feather",
+            "name": "ロード・オブ・フェザー",
+            "value": false
+        },
+        "slots": [
+            "6-物理",
+            "5-魔法",
+            [
+                "5-防御",
+                "5-援護"
+            ]
+        ]
+    },
+    {
+        "id": 15,
+        "name": "若きイスリーダ皇帝",
+        "element": "光",
+        "race": "人族",
+        "baseAtk": 3800,
+        "baseDef": 2898,
+        "baseHp": 7447,
+        "abilities": [
+            {
+                "type": "critical_up",
+                "value": 100,
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 3000,
+                "type": "物理",
+                "element": "光",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 22000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 30,
+                        "target": "party"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 80000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "dmg_taken_up",
+                        "value": 50,
+                        "target": "enemy"
+                    },
+                    {
+                        "type": "super_critical_up",
+                        "value": 50,
+                        "target": "self"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 160000,
+                "type": "魔法",
+                "element": "光",
+                "conditional": {
+                    "buttonId": "90seconds",
+                    "multiplierRate": 1,
+                    "buffAdd": 50
+                },
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 150,
+                        "target": "element",
+                        "target_element": "光",
+                        "overlap": true
+                    }
+                ]
+            }
+        },
+        "button": {
+            "id": "90seconds",
+            "name": "90秒以内",
+            "value": false
+        },
+        "slots": [
+            "6-魔法",
+            "5-物理",
+            [
+                "5-防御",
+                "5-援護"
+            ]
+        ]
+    },
+    {
+        "id": 16,
+        "name": "アンリエッタ",
+        "element": "水",
+        "race": "人族",
+        "baseAtk": 3800,
+        "baseDef": 2898,
+        "baseHp": 7447,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": 0,
+                "conditional": {
+                    "buttonId": "bigBoss",
+                    "buffAdd": 60
+                },
+                "target": "party"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 3000,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 17000,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 30000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "crit_res_down",
+                        "value": 100,
+                        "target": "enemy"
+                    },
+                    {
+                        "type": "elem_res_down",
+                        "value": 100,
+                        "target": "enemy",
+                        "target_element": [
+                            "水",
+                            "光",
+                            "闇"
+                        ]
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 160000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "super_arts_dmg_up",
+                        "value": 300,
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "button": {
+            "id": "bigBoss",
+            "name": "大型ボス",
+            "value": false
+        },
+        "slots": [
+            "6-援護",
+            "5-物理",
+            [
+                "4-防御",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 17,
+        "name": "杠",
+        "element": "闇",
+        "race": "人族",
+        "baseAtk": 2635,
+        "baseDef": 3300,
+        "baseHp": 7810,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "50 * is_leader",
+                "target": "race",
+                "race": "人族"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 1800,
+                "type": "物理",
+                "element": "闇",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 15000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 52000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 80,
+                        "target": "enemy",
+                        "target_element": "闇"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 140000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": "200 * hp_rate",
+                        "target": "enemy"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-援護",
+            [
+                "4-魔法",
+                "4-援護"
+            ]
+        ]
+    },
+    {
+        "id": 18,
+        "name": "星剣使いヴァレリー",
+        "element": "水",
+        "race": "人族",
+        "baseAtk": 3836,
+        "baseDef": 2893,
+        "baseHp": 7428,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": 240,
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 1500,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "dmg_taken_up",
+                        "value": 20,
+                        "target": "enemy",
+                        "overlap": true
+                    }
+                ]
+            },
+            "arts": {
+                "multiplier": 18000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 150,
+                        "target": "self"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "def_ignore",
+                        "value": 100,
+                        "target": "party"
+                    },
+                    {
+                        "type": "dmg_up",
+                        "value": 200,
+                        "target": "element",
+                        "target_element": "水"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": "180000 + 10 * self_atk",
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-物理",
+            [
+                "4-援護",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 19,
+        "name": "シュタルク",
+        "element": "炎",
+        "race": "人族",
+        "baseAtk": 3825,
+        "baseDef": 3066,
+        "baseHp": 7210,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "0.03 * self_atk",
+                "target": "self"
+            },
+            {
+                "type": "dmg_up",
+                "conditional": {
+                    "buttonId": "break",
+                    "buffAdd": 50
+                },
+                "value": 0,
+                "target": "party"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 3500,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 25000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 30,
+                        "target": "party"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 62000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "superArts": {
+                "multiplier": 200000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 150,
+                        "target": "enemy"
+                    }
+                ]
+            }
+        },
+        "button": {
+            "id": "break",
+            "name": "ブレイク",
+            "value": false
+        },
+        "slots": [
+            "6-物理",
+            "5-防御",
+            [
+                "4-物理",
+                "4-防御"
+            ]
+        ]
+    },
+    {
+        "id": 20,
+        "name": "斎藤一",
+        "element": "闇",
+        "race": "人族",
+        "baseAtk": 3887,
+        "baseDef": 2904,
+        "baseHp": 7381,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "0.01 * (self_atk + self_def)",
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2800,
+                "type": "物理",
+                "element": "闇",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 27000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 20,
+                        "target": "self"
+                    },
+                    {
+                        "type": "status_up",
+                        "value": 20,
+                        "target": "race",
+                        "race": "人族"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 100,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 230000,
+                "type": "物理",
+                "element": "闇",
+                "conditional": [
+                    {
+                        "buttonId": "battleStart",
+                        "multiplierRate": 2
+                    },
+                    {
+                        "buttonId": "condition",
+                        "buffRate": 2
+                    }
+                ],
+                "buffs": [
+                    {
+                        "type": "dmg_taken_up",
+                        "value": 75,
+                        "target": "enemy"
+                    }
+                ]
+            }
+        },
+        "button": [
+            {
+                "id": "battleStart",
+                "name": "戦闘開始時",
+                "value": false
+            },
+            {
+                "id": "condition",
+                "name": "状態異常ではない時",
+                "value": false
+            }
+        ],
+        "slots": [
+            "6-物理",
+            "5-援護",
+            [
+                "4-防御",
+                "4-物理"
+            ]
+        ]
+    },
+    {
+        "id": 21,
+        "name": "ヒーローサイタマ",
+        "element": "光",
+        "race": "人族",
+        "baseAtk": 4250,
+        "baseDef": 2755,
+        "baseHp": 7337,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "0.03 * self_atk",
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 3000,
+                "type": "物理",
+                "element": "光",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 25000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "phys_res_down",
+                        "value": 30,
+                        "target": "enemy"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 60000,
+                "type": "物理",
+                "element": "光",
+                "buffs": []
+            },
+            "superArts": {
+                "multiplier": 300000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "def_ignore",
+                        "value": 100,
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-防御",
+            [
+                "5-物理",
+                "5-防御"
+            ]
+        ]
+    },
+    {
+        "id": 22,
+        "name": "オカルン",
+        "element": "樹",
+        "race": "精霊族",
+        "baseAtk": 3828,
+        "baseDef": 2950,
+        "baseHp": 7359,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "0.01 * self_atk",
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2500,
+                "type": "物理",
+                "element": "樹",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 28000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 60,
+                        "target": "party",
+                        "overlap": true
+                    },
+                    {
+                        "type": "phys_dmg_up",
+                        "value": 100,
+                        "target": "party",
+                        "overlap": true
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 220000,
+                "type": "物理",
+                "element": "樹",
+                "conditional": {
+                    "buttonId": "belowSecondTimes",
+                    "multiplierRate": 2
+                },
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": "200 * hp_rate",
+                        "target": "enemy"
+                    }
+                ]
+            }
+        },
+        "button": {
+            "id": "belowSecondTimes",
+            "name": "2回以下",
+            "value": false
+        },
+        "slots": [
+            "6-物理",
+            "5-援護",
+            [
+                "4-物理",
+                "4-回復"
+            ]
+        ]
+    },
+    {
+        "id": 23,
+        "name": "熾炎の小隊長シャルロット",
+        "element": "炎",
+        "race": "人族",
+        "baseAtk": 3875,
+        "baseDef": 2877,
+        "baseHp": 7425,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "0.01 * self_atk",
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2200,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 27000,
+                "type": "魔法",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": [
+                            "true_arts_dmg_up",
+                            "super_arts_dmg_up"
+                        ],
+                        "value": 170,
+                        "target": "party"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 63000,
+                "type": "魔法",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 30,
+                        "target": "party"
+                    },
+                    {
+                        "type": "status_up",
+                        "value": 30,
+                        "target": "element",
+                        "target_element": "炎"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 150000,
+                "type": "魔法",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "party"
+                    },
+                    {
+                        "type": "super_critical_up",
+                        "value": "100 * hp_rate",
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-魔法",
+            [
+                "4-援護",
+                "4-魔法"
+            ]
+        ]
+    },
+    {
+        "id": 24,
+        "name": "蒼牙ジェイ",
+        "element": "水",
+        "race": "人族",
+        "baseAtk": 3975,
+        "baseDef": 3032,
+        "baseHp": 7155,
+        "actions": {
+            "skill": {
+                "multiplier": 2300,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 20000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "elem_unit_dmg_up",
+                        "value": 50,
+                        "target": "party"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "dmg_taken_up",
+                        "value": "hp_rate >= 0.9 ? 80 : 40",
+                        "target": "party"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 150000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 50,
+                        "target": "party",
+                        "overlap": true
+                    }
+                ],
+                "conditional": {
+                    "buttonId": "120秒以下",
+                    "buffRate": 2
+                }
+            }
+        },
+        "button": {
+            "id": "120秒以下",
+            "name": "120秒以下",
+            "value": false
+        },
+        "slots": [
+            "6-物理",
+            "5-回復",
+            [
+                "4-物理",
+                "4-援護"
+            ]
+        ]
+    },
+    {
+        "id": 25,
+        "name": "ミリム(和装ver)",
+        "element": "光",
+        "race": "魔族",
+        "baseAtk": 3120,
+        "baseDef": 2288,
+        "baseHp": 7300,
+        "abilities": [
+            {
+                "type": "atk_up",
+                "value": 0,
+                "target": "party",
+                "conditional": {
+                    "buttonId": "90秒以下",
+                    "buffAdd": 80
+                }
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 20,
+                        "target": "self"
+                    }
+                ]
+            },
+            "arts": {
+                "multiplier": 24000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 80,
+                        "target": "self"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 85000,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 80,
+                        "target": "enemy",
+                        "target_element": "光"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-魔法",
+            "4-援護"
+        ],
+        "button": {
+            "id": "90秒以下",
+            "name": "90秒以下",
+            "value": false
+        }
+    },
+    {
+        "id": 26,
+        "name": "フリーレン",
+        "element": "光",
+        "race": "精霊族",
+        "baseAtk": 3097,
+        "baseDef": 2829,
+        "baseHp": 7998,
+        "abilities": [
+            {
+                "type": "def_ignore",
+                "value": "hp_rate >= 0.5 ? 100 : 0",
+                "target": "party"
+            },
+            {
+                "type": "dmg",
+                "value": 0,
+                "target": "self",
+                "conditional": {
+                    "buttonId": "ボス：魔族",
+                    "buffAdd": 50
+                }
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 20000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "status_up",
+                        "value": 10,
+                        "target": "party",
+                        "overlap": true
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 67000,
+                "type": "魔法",
+                "element": "炎",
+                "buffs": []
+            },
+            "superArts": {
+                "multiplier": 180000,
+                "type": "魔法",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": "target_hp >= 10000 ? 400 : 200",
+                        "target": "element",
+                        "target_element": "光"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-魔法",
+            "5-援護",
+            [
+                "5-魔法",
+                "5-防御"
+            ]
+        ],
+        "button": {
+            "id": "ボス：魔族",
+            "name": "ボス：魔族",
+            "value": false
+        }
+    },
+    {
+        "id": 27,
+        "name": "佐倉杏子",
+        "element": "炎",
+        "race": "人族",
+        "baseAtk": 3949,
+        "baseDef": 2941,
+        "baseHp": 7316,
+        "abilities": [],
+        "actions": {
+            "skill": {
+                "multiplier": 4300,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 25000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 80000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 100,
+                        "target": "enemy",
+                        "target_element": [
+                            "水",
+                            "炎"
+                        ]
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 230000,
+                "type": "物理",
+                "element": "炎",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": "300 * hp_rate",
+                        "target": "self"
+                    },
+                    {
+                        "type": "atk_up",
+                        "value": "300 * hp_rate",
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-援護",
+            [
+                "4-回復",
+                "4-物理"
+            ]
+        ]
+    },
+    {
+        "id": 28,
+        "name": "美樹さやか",
+        "element": "水",
+        "race": "人族",
+        "baseAtk": 2450,
+        "baseDef": 3638,
+        "baseHp": 8571,
+        "abilities": [],
+        "actions": {
+            "skill": {
+                "multiplier": 2500,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 18000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "def_up",
+                        "value": 30,
+                        "target": "party"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 43000,
+                "type": "物理",
+                "element": "水",
+                "buffs": []
+            },
+            "superArts": {
+                "multiplier": 100000,
+                "type": "物理",
+                "element": "水",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": "300 * (1-hp_rate)",
+                        "target": "party"
+                    },
+                    {
+                        "type": "atk_up",
+                        "value": "300 * (1-hp_rate)",
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-物理",
+            "5-防御",
+            [
+                "4-回復",
+                "4-物理"
+            ]
+        ]
+    },
+    {
+        "id": 29,
+        "name": "イビルアイ",
+        "element": "樹",
+        "race": "魔族",
+        "baseAtk": 3352,
+        "baseDef": 3141,
+        "baseHp": 7425,
+        "abilities": [
+            {
+                "type": "dmg_up",
+                "value": "100 * is_leader",
+                "target": "element",
+                "target_element": "樹"
+            },
+            {
+                "type": "dmg_up",
+                "value": 0,
+                "target": "self",
+                "conditional": {
+                    "buttonId": "ボス：竜族",
+                    "buffAdd": 50
+                }
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2000,
+                "type": "魔法",
+                "element": "樹",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 0,
+                "type": "",
+                "element": "",
+                "buffs": []
+            },
+            "trueArts": {
+                "multiplier": 50000,
+                "type": "魔法",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "atk_up",
+                        "value": 150,
+                        "target": "self"
+                    }
+                ]
+            },
+            "superArts": {
+                "multiplier": 150000,
+                "type": "魔法",
+                "element": "樹",
+                "buffs": [
+                    {
+                        "type": "mag_dmg_up",
+                        "value": 200,
+                        "target": "party"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "6-魔法",
+            "5-援護",
+            [
+                "4-魔法",
+                "4-防御"
+            ]
+        ]
+    },
+    {
+        "id": 30,
+        "name": "闇軍統妃フォルテ",
+        "element": "闇",
+        "race": "人族",
+        "baseAtk": 2941,
+        "baseDef": 2210,
+        "baseHp": 6884,
+        "abilities": [
+            {
+                "type": "crit_dmg_up",
+                "value": 30,
+                "target": "party"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 2000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 10000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "elem_res_down",
+                        "value": 10,
+                        "target": "enemy",
+                        "target_element": "闇",
+                        "overlap": true
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 30000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 65,
+                        "target": "element",
+                        "target_element": "闇"
+                    },
+                    {
+                        "type": "dmg_up",
+                        "value": 65,
+                        "target": "race",
+                        "target_race": "人族"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "5-物理",
+            "5-援護",
+            "4-魔法"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "マイキー",
+        "element": "闇",
+        "race": "人族",
+        "baseAtk": 3070,
+        "baseDef": 2650,
+        "baseHp": 6885,
+        "abilities": [
+            {
+                "type": "crit_dmg_up",
+                "value": "200 * hp_rate",
+                "target": "self"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 1800,
+                "type": "物理",
+                "element": "闇",
+                "buffs": []
+            },
+            "arts": {
+                "multiplier": 21000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 70,
+                        "target": "race",
+                        "target_race": "人族"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "5-物理",
+            "5-防御",
+            "5-援護"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "ドラケン",
+        "element": "光",
+        "race": "人族",
+        "baseAtk": 3029,
+        "baseDef": 2701,
+        "baseHp": 6852,
+        "abilities": [
+            {
+                "type": "phys_dmg_up",
+                "value": "100 * hp_rate",
+                "target": "party"
+            }
+        ],
+        "actions": {
+            "skill": {
+                "multiplier": 1700,
+                "type": "物理",
+                "element": "光",
+                "buffs": [
+                    {
+                        "type": "def_down",
+                        "value": 10,
+                        "target": "enemy",
+                        "target_element": "光"
+                    }
+                ]
+            },
+            "arts": {
+                "multiplier": 21000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "dmg_up",
+                        "value": 70,
+                        "target": "race",
+                        "target_race": "人族"
+                    }
+                ]
+            },
+            "trueArts": {
+                "multiplier": 70000,
+                "type": "物理",
+                "element": "闇",
+                "buffs": [
+                    {
+                        "type": "critical_up",
+                        "value": 100,
+                        "target": "self"
+                    }
+                ]
+            }
+        },
+        "slots": [
+            "5-物理",
+            "5-防御",
+            "5-援護"
+        ]
+    }
+]

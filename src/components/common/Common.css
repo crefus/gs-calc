@@ -1,0 +1,75 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
+}
+
+
+
+.input-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 0 var(--spacing-md);
+    border-radius: var(--radius-md);
+    transition: border-color var(--transition-fast);
+}
+
+.input-wrapper:focus-within {
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 8px var(--accent-gold-glow);
+}
+
+.custom-input {
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    padding: var(--spacing-md) 0;
+    width: 100%;
+    outline: none;
+}
+
+.input-suffix {
+    color: var(--text-muted);
+    margin-left: var(--spacing-sm);
+    font-size: 0.9rem;
+}
+
+.custom-btn {
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-normal);
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-btn.primary {
+    background: var(--accent-gold);
+    color: var(--bg-primary);
+    box-shadow: 0 4px 12px var(--accent-gold-glow);
+}
+
+.custom-btn.primary:hover {
+    background: #fff;
+    transform: translateY(-2px);
+}
+
+.custom-btn.secondary {
+    background: var(--glass-highlight);
+    color: var(--text-primary);
+    border: 1px solid var(--glass-border);
+}
+
+.custom-btn.secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
